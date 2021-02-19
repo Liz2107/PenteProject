@@ -1,5 +1,12 @@
 
 public class Logistics {
+	public static void checkSteal(int row, int col)
+	{
+		if(GridTracker.grid[row][col] == '1')
+		{
+			
+		}
+	}
 	public static void checkWin(int row, int col)
 	{
 		//hor check- loop through row and check if matches input symbol 4+ consecutive times
