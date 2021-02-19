@@ -138,7 +138,8 @@ public class GUI implements ActionListener
 			//display error message- probably through setText with instructions label
 		}
 			
-	Logistics.checkWin(row, col);	
+	Logistics.checkWin(row, col);
+	Logistics.checkSteal(row, col);
 //	if(Logistics.gameOver)
 //	{
 //		panel.close();
